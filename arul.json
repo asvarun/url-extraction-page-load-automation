@@ -1,0 +1,82 @@
+{
+  "arul": [
+    {
+      "table_name": "gck_common_secure.agg_session_content_activity_korea",
+      "table_url": "https://gateway.us-east-1.map.nike.com/cdeadcu-pipa/admin/airflow/graph?dag_id=agg_session_content_activity_korea",
+      "dependent_dag": "[{'cluster_name': 'consumerdata', 'dag_id': 'gck_common_agg_session_content_activity_from_nrc_daily'}]",
+      "dependent_dag_url": "https://gateway.us-east-1.map.nike.com/consumerdata/admin/airflow/graph?dag_id=gck_common_agg_session_content_activity_from_nrc_daily"
+    },
+    {
+      "table_name": "gck_common_secure.agg_session_content_activity_korea",
+      "table_url": "https://gateway.us-east-1.map.nike.com/cdeadcu-pipa/admin/airflow/graph?dag_id=agg_session_content_activity_korea",
+      "dependent_dag": "[{'cluster_name': 'consumerdata', 'dag_id': 'gck_common_agg_session_content_activity_from_ntc_daily'}]",
+      "dependent_dag_url": "https://gateway.us-east-1.map.nike.com/consumerdata/admin/airflow/graph?dag_id=gck_common_agg_session_content_activity_from_ntc_daily"
+    },
+    {
+      "table_name": "gck_common_secure.agg_session_content_activity_korea",
+      "table_url": "https://gateway.us-east-1.map.nike.com/cdeadcu-pipa/admin/airflow/graph?dag_id=agg_session_content_activity_korea",
+      "dependent_dag": "[{'cluster_name': 'consumerdata', 'dag_id': 'gck_common_agg_session_content_activity_from_nike_app_daily'}]",
+      "dependent_dag_url": "https://gateway.us-east-1.map.nike.com/consumerdata/admin/airflow/graph?dag_id=gck_common_agg_session_content_activity_from_nike_app_daily"
+    },
+    {
+      "table_name": "gck_common_secure.agg_user_experience_monthly_korea",
+      "table_url": "https://gateway.us-east-1.map.nike.com/cdeadcu-pipa/admin/airflow/graph?dag_id=agg_user_experience_monthly_korea",
+      "dependent_dag": "[{'cluster_name': 'consumerdata', 'dag_id': 'gck_common_load_agg_user_experience_monthly_vacuum' }]",
+      "dependent_dag_url": "https://gateway.us-east-1.map.nike.com/consumerdata/admin/airflow/graph?dag_id=gck_common_load_agg_user_experience_monthly_vacuum"
+    },
+    {
+      "table_name": "gck_common_secure.agg_user_experience_daily_korea",
+      "table_url": "https://gateway.us-east-1.map.nike.com/cdeadcu-pipa/admin/airflow/graph?dag_id=agg_user_experience_daily_korea",
+      "dependent_dag": "[{'cluster_name': 'consumerdata', 'dag_id': 'gck_common_load_agg_user_experience_session_and_daily_vacuum' }]",
+      "dependent_dag_url": "https://gateway.us-east-1.map.nike.com/consumerdata/admin/airflow/graph?dag_id=gck_common_load_agg_user_experience_session_and_daily_vacuum"
+    },
+    {
+      "table_name": "gck_common_secure.agg_user_experience_session_korea",
+      "table_url": "https://gateway.us-east-1.map.nike.com/cdeadcu-pipa/admin/airflow/graph?dag_id=agg_user_experience_session_korea",
+      "dependent_dag": "[{'cluster_name': 'consumerdata', 'dag_id': 'gck_common_load_agg_user_experience_session_and_daily_vacuum' }]",
+      "dependent_dag_url": "https://gateway.us-east-1.map.nike.com/consumerdata/admin/airflow/graph?dag_id=gck_common_load_agg_user_experience_session_and_daily_vacuum"
+    },
+    {
+      "table_name": "gck_common_secure.agg_user_experience_weekly_korea",
+      "table_url": "https://gateway.us-east-1.map.nike.com/cdeadcu-pipa/admin/airflow/graph?dag_id=agg_user_experience_weekly_korea",
+      "dependent_dag": "[{'cluster_name': 'consumerdata', 'dag_id': 'gck_common_load_agg_user_experience_weekly_vacuum' }]",
+      "dependent_dag_url": "https://gateway.us-east-1.map.nike.com/consumerdata/admin/airflow/graph?dag_id=gck_common_load_agg_user_experience_weekly_vacuum"
+    },
+    {
+      "table_name": "gck_common_secure.agg_user_retention_monthly_korea",
+      "table_url": "https://gateway.us-east-1.map.nike.com/cdeadcu-pipa/admin/airflow/graph?dag_id=agg_user_retention_monthly_korea",
+      "dependent_dag": "[{'cluster_name': 'consumerdata', 'dag_id': 'gck_common_load_agg_user_retention_monthly_vacuum' }]",
+      "dependent_dag_url": "https://gateway.us-east-1.map.nike.com/consumerdata/admin/airflow/graph?dag_id=gck_common_load_agg_user_retention_monthly_vacuum"
+    },
+    {
+      "table_name": "gck_common_secure.agg_user_retention_weekly_korea",
+      "table_url": "https://gateway.us-east-1.map.nike.com/cdeadcu-pipa/admin/airflow/graph?dag_id=agg_user_retention_weekly_korea",
+      "dependent_dag": "[{'cluster_name': 'consumerdata', 'dag_id': 'gck_common_load_agg_user_retention_weekly_vacuum' }]",
+      "dependent_dag_url": "https://gateway.us-east-1.map.nike.com/consumerdata/admin/airflow/graph?dag_id=gck_common_load_agg_user_retention_weekly_vacuum"
+    },
+    {
+      "table_name": "gck_common_secure.fact_clickstream_hit_product_category_korea",
+      "table_url": "https://gateway.us-east-1.map.nike.com/cdeadcu-pipa/admin/airflow/graph?dag_id=fact_clickstream_hit_product_category_korea",
+      "dependent_dag": "[{'cluster_name': 'consumerdata', 'dag_id': 'gck_common_load_hit_product_category_daily' }]",
+      "dependent_dag_url": "https://gateway.us-east-1.map.nike.com/consumerdata/admin/airflow/graph?dag_id=gck_common_load_hit_product_category_daily"
+    },
+    {
+      "table_name": "gck_common_secure.fact_clickstream_session_product_category_korea",
+      "table_url": "https://gateway.us-east-1.map.nike.com/cdeadcu-pipa/admin/airflow/graph?dag_id=fact_clickstream_session_product_category_kr",
+      "dependent_dag": "[{'cluster_name': 'consumerdata', 'dag_id': 'gck_common_load_session_product_category_daily' }]",
+      "dependent_dag_url": "https://gateway.us-east-1.map.nike.com/consumerdata/admin/airflow/graph?dag_id=gck_common_load_session_product_category_daily"
+    },
+    {
+      "table_name": "gck_common_secure.agg_user_first_and_last_touchpoint_korea",
+      "table_url": "https://gateway.us-east-1.map.nike.com/cdeadcu-pipa/admin/airflow/graph?dag_id=agg_user_first_and_last_touchpoint_korea",
+      "dependent_dag": "[{'cluster_name': 'consumerdata', 'dag_id': 'gck_common_load_stg_and_agg_user_first_and_last_touchpoint' }]",
+      "dependent_dag_url": "https://gateway.us-east-1.map.nike.com/consumerdata/admin/airflow/graph?dag_id=gck_common_load_stg_and_agg_user_first_and_last_touchpoint"
+    },
+    {
+      "table_name": "plans_secure.plan",
+      "table_url": "https://gateway.us-east-1.map.nike.com/cdeadcu-pipa/admin/airflow/graph?dag_id=plan",
+      "dependent_dag": "No Dependency",
+      "dependent_dag_url": ""
+    }
+  ]
+}

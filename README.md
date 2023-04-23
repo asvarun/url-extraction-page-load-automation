@@ -1,0 +1,1 @@
+### This web app extracts URL from tables and loads the links in new browser tab automatically

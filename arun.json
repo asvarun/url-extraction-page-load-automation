@@ -1,0 +1,76 @@
+{
+  "arun": [
+    {
+      "table_name": "comms_secure.ses_bounce",
+      "table_url": "https://gateway.us-east-1.map.nike.com/cdeadcu-pipa/admin/airflow/graph?dag_id=ses_bounce",
+      "dependent_dag": "ses_email_data_ingestion",
+      "dependent_dag_url": "https://gateway.us-east-1.map.nike.com/consumerdata/admin/airflow/graph?dag_id=ses_email_data_ingestion"
+    },
+    {
+      "table_name": "comms_secure.ses_clicks",
+      "table_url": "https://gateway.us-east-1.map.nike.com/cdeadcu-pipa/admin/airflow/graph?dag_id=ses_clicks",
+      "dependent_dag": "ses_email_data_ingestion",
+      "dependent_dag_url": "https://gateway.us-east-1.map.nike.com/consumerdata/admin/airflow/graph?dag_id=ses_email_data_ingestion"
+    },
+    {
+      "table_name": "comms_secure.ses_deactivation",
+      "table_url": "https://gateway.us-east-1.map.nike.com/cdeadcu-pipa/admin/airflow/graph?dag_id=ses_deactivation",
+      "dependent_dag": "ses_email_data_ingestion",
+      "dependent_dag_url": "https://gateway.us-east-1.map.nike.com/consumerdata/admin/airflow/graph?dag_id=ses_email_data_ingestion"
+    },
+    {
+      "table_name": "comms_secure.ses_open",
+      "table_url": "https://gateway.us-east-1.map.nike.com/cdeadcu-pipa/admin/airflow/graph?dag_id=ses_open",
+      "dependent_dag": "ses_email_data_ingestion",
+      "dependent_dag_url": "https://gateway.us-east-1.map.nike.com/consumerdata/admin/airflow/graph?dag_id=ses_email_data_ingestion"
+    },
+    {
+      "table_name": "comms_secure.ses_sent",
+      "table_url": "https://gateway.us-east-1.map.nike.com/cdeadcu-pipa/admin/airflow/graph?dag_id=ses_sent",
+      "dependent_dag": "ses_email_data_ingestion",
+      "dependent_dag_url": "https://gateway.us-east-1.map.nike.com/consumerdata/admin/airflow/graph?dag_id=ses_email_data_ingestion"
+    },
+    {
+      "table_name": "comms_secure.ses_unsubscribe",
+      "table_url": "https://gateway.us-east-1.map.nike.com/cdeadcu-pipa/admin/airflow/graph?dag_id=ses_unsubscribe",
+      "dependent_dag": "ses_email_data_ingestion",
+      "dependent_dag_url": "https://gateway.us-east-1.map.nike.com/consumerdata/admin/airflow/graph?dag_id=ses_email_data_ingestion"
+    },
+    {
+      "table_name": "comms_secure.sg_bounce",
+      "table_url": "https://gateway.us-east-1.map.nike.com/cdeadcu-pipa/admin/airflow/graph?dag_id=sg_bounce",
+      "dependent_dag": "sg_email_data_ingestion",
+      "dependent_dag_url": "https://gateway.us-east-1.map.nike.com/consumerdata/admin/airflow/graph?dag_id=sg_email_data_ingestion"
+    },
+    {
+      "table_name": "comms_secure.sg_clicks",
+      "table_url": "https://gateway.us-east-1.map.nike.com/cdeadcu-pipa/admin/airflow/graph?dag_id=sg_clicks",
+      "dependent_dag": "sg_email_data_ingestion",
+      "dependent_dag_url": "https://gateway.us-east-1.map.nike.com/consumerdata/admin/airflow/graph?dag_id=sg_email_data_ingestion"
+    },
+    {
+      "table_name": "comms_secure.sg_deactivation",
+      "table_url": "https://gateway.us-east-1.map.nike.com/cdeadcu-pipa/admin/airflow/graph?dag_id=sg_deactivation",
+      "dependent_dag": "sg_email_data_ingestion",
+      "dependent_dag_url": "https://gateway.us-east-1.map.nike.com/consumerdata/admin/airflow/graph?dag_id=sg_email_data_ingestion"
+    },
+    {
+      "table_name": "comms_secure.sg_open",
+      "table_url": "https://gateway.us-east-1.map.nike.com/cdeadcu-pipa/admin/airflow/graph?dag_id=sg_open",
+      "dependent_dag": "sg_email_data_ingestion",
+      "dependent_dag_url": "https://gateway.us-east-1.map.nike.com/consumerdata/admin/airflow/graph?dag_id=sg_email_data_ingestion"
+    },
+    {
+      "table_name": "comms_secure.sg_sent",
+      "table_url": "https://gateway.us-east-1.map.nike.com/cdeadcu-pipa/admin/airflow/graph?dag_id=sg_send",
+      "dependent_dag": "sg_email_data_ingestion",
+      "dependent_dag_url": "https://gateway.us-east-1.map.nike.com/consumerdata/admin/airflow/graph?dag_id=sg_email_data_ingestion"
+    },
+    {
+      "table_name": "comms_secure.sg_unsubscribe",
+      "table_url": "https://gateway.us-east-1.map.nike.com/cdeadcu-pipa/admin/airflow/graph?dag_id=sg_unsubscribe",
+      "dependent_dag": "sg_email_data_ingestion",
+      "dependent_dag_url": "https://gateway.us-east-1.map.nike.com/consumerdata/admin/airflow/graph?dag_id=sg_email_data_ingestion"
+    }
+  ]
+}
