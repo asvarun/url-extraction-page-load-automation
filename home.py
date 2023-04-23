@@ -84,7 +84,7 @@ def open_table_url():
     for link in table_url:
         if link:
             url = link
-            chrome_path = r"/usr/bin/google-chrome"
+            chrome_path = r"C:\Program Files\Google\Chrome\Application\chrome.exe"
             webbrowser.register('chrome', None, webbrowser.BackgroundBrowser(chrome_path))
             webbrowser.get('chrome').open_new_tab(url)
             time.sleep(1.5)
@@ -96,7 +96,7 @@ def open_dependent_dag_url():
     for link in dependent_dag_url:
         if link:
             url = link
-            chrome_path = r"/usr/bin/google-chrome"
+            chrome_path = r"C:\Program Files\Google\Chrome\Application\chrome.exe"
             webbrowser.register('chrome', None, webbrowser.BackgroundBrowser(chrome_path))
             webbrowser.get('chrome').open_new_tab(url)
             time.sleep(1.5)
