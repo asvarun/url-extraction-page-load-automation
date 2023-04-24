@@ -92,8 +92,11 @@ def open_table_url():
                 """ % url
             html(open_script)
             time.sleep(2)
+            st.experimental_rerun()
         else:
             continue
+
+    st.experimental_rerun()
 
 
 def open_dependent_dag_url():
@@ -109,6 +112,8 @@ def open_dependent_dag_url():
             time.sleep(2)
         else:
             continue
+
+    st.experimental_rerun()
 
 
 c1, c2, c3, c4 = st.columns(4)
