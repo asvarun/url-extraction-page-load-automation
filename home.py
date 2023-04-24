@@ -3,6 +3,7 @@ import webbrowser
 import json
 import pandas as pd
 import time
+from streamlit.components.v1 import html
 
 
 def table_view_choice():
@@ -84,8 +85,13 @@ def open_table_url():
     for link in table_url:
         if link:
             url = link
-            webbrowser.open_new_tab(url)
-            time.sleep(1.5)
+            open_script = """
+                    <script type="text/javascript">
+                        window.open('%s', '_blank').focus();
+                    </script>
+                """ % url
+            html(open_script)
+            time.sleep(2)
         else:
             continue
 
@@ -94,8 +100,13 @@ def open_dependent_dag_url():
     for link in dependent_dag_url:
         if link:
             url = link
-            webbrowser.open_new_tab(url)
-            time.sleep(1.5)
+            open_script = """
+                    <script type="text/javascript">
+                        window.open('%s', '_blank').focus();
+                    </script>
+                """ % url
+            html(open_script)
+            time.sleep(2)
         else:
             continue
 
